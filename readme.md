@@ -1,3 +1,5 @@
-so we have the json data, this one is the head of df, we have audio files,
+# Audio Classification Model for Vehicle Identification
 
-we need to train a model using the audio files,
+## Overview:
+
+    This project aims to develop a model for classifying vehicle types using audio files as input data. The model's objective is to predict whether the sound corresponds to a car or a truck based on the audio features extracted from the files.
