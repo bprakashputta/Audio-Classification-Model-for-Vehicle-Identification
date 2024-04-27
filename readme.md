@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="images/project_image.jpeg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Audio Classification Model for Vehicle Identification</h3>
@@ -99,6 +99,10 @@ Below is an example soundwave plot generated using the `plot_soundwave` function
 ![Soundwave Plot](images/wave3.png)
 
 In this plot, the x-axis represents time in seconds, while the y-axis represents the amplitude of the audio signal. The peaks and troughs in the waveform indicate changes in the audio signal's intensity, providing valuable insights into the audio's structure and dynamics.
+
+## Building the Machine Learning Model
+
+We're developing a machine learning model to classify vehicle types from audio recordings, aiming to distinguish between cars and trucks. Starting with a dataset containing audio files and associated metadata, we extract relevant features using the librosa library. These features, including spectral and temporal characteristics, serve as inputs to our model. Through experimentation with algorithms like Support Vector Machines (SVM) and Convolutional Neural Networks (CNN), we aim to find the best architecture for accurate classification. After training and evaluation, the model will be deployed for real-world applications, enhancing tasks like traffic monitoring and urban planning.
 
 ## Model Architecture:
 
