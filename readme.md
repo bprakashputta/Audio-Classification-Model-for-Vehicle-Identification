@@ -7,9 +7,9 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]
-[![GitHub Issues](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/issues)]
-[![GitHub Pull Requests](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/pulls)]
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/issues)]()
+[![GitHub Pull Requests](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/pulls)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
