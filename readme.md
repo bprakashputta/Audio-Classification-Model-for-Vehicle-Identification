@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="images/project_image.jpeg" alt="Project logo"></a>
+ <img width=200px height=200px src="images/project_image.jpeg" alt="Audio Classification Model for Vehicle Identification"></a>
 </p>
 
 <h3 align="center">Audio Classification Model for Vehicle Identification</h3>
@@ -17,9 +17,10 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<p align="center" style="font-family: 'Shadows Into Light', cursive; font-size: 18px; color: #555;">"Revving up with data, our project deciphers the symphony of streets, distinguishing between cars and trucks one soundwave at a time."</p>
 
 ## 📝 Table of Contents
 
@@ -27,11 +28,15 @@
 - [Requirements](#requirements)
 - [Dataset](#dataset)
 - [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Audio Visualization](#audio-visualization)
+- [Building the Machine Learning Model](#building-the-machine-learning-model)
+- [Model Architecture](#model-architecture)
+  - [SVM (Support Vector Machines)](#svm-support-vector-machines)
+  - [Keras Sequential Models](#keras-sequential-models)
+- [Use Case](#use-case)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -87,7 +92,7 @@ Researchers and developers can leverage the dataset to explore novel approaches 
 
 The insights gained from this dataset can contribute to various applications, including traffic monitoring, urban planning, and surveillance systems.
 
-## Audio Visualization
+## Audio Visualization <a name="audio-visualization">
 
 To gain insights into the characteristics of our audio data, we have implemented a function called `plot_soundwave` using librosa library and Mel-frequency cepstrum to extract features. This function allows us to visualize the sound wave of an audio file.
 
@@ -101,15 +106,15 @@ Below is an example soundwave plot generated using the `plot_soundwave` function
 
 In this plot, the x-axis represents time in seconds, while the y-axis represents the amplitude of the audio signal. The peaks and troughs in the waveform indicate changes in the audio signal's intensity, providing valuable insights into the audio's structure and dynamics.
 
-## Building the Machine Learning Model
+## Building the Machine Learning Model <a name="building-the-machine-learning-model">
 
 We're developing a machine learning model to classify vehicle types from audio recordings, aiming to distinguish between cars and trucks. Starting with a dataset containing audio files and associated metadata, we extract relevant features using the librosa library. These features, including spectral and temporal characteristics, serve as inputs to our model. Through experimentation with algorithms like Support Vector Machines (SVM) and Convolutional Neural Networks (CNN), we aim to find the best architecture for accurate classification. After training and evaluation, the model will be deployed for real-world applications, enhancing tasks like traffic monitoring and urban planning.
 
-## Model Architecture:
+## Model Architecture: <a name="model_architecture"></a>
 
 For this project, two different machine learning architectures were employed: Support Vector Machines (SVM) and Keras Sequential models. Both approaches were utilized to train and evaluate the dataset for vehicle classification based on audio features.
 
-### SVM (Support Vector Machines):
+### SVM (Support Vector Machines): <a name="svm-support-vector-machines"></a>
 
 Support Vector Machines are powerful supervised learning algorithms used for classification tasks. In this project, SVM was employed due to its ability to handle high-dimensional data effectively. SVM works by finding the hyperplane that best separates the data into different classes while maximizing the margin between the classes.
 
@@ -146,7 +151,7 @@ The performance of the SVM model was evaluated using metrics such as accuracy, p
 | Macro Avg    | 0.57        | 0.57     | 0.57       | 620       |
 | Weighted Avg | 0.67        | 0.67     | 0.67       | 620       |
 
-### Keras Sequential Models:
+### Keras Sequential Models: <a name="keras-sequential-models">
 
 Keras Sequential models offer a flexible and intuitive way to build neural network architectures. In this project, Sequential models were utilized to explore deep learning-based approaches for vehicle classification from audio data.
 
@@ -193,7 +198,7 @@ Similar to SVM, the performance of the Sequential model was evaluated using stan
 
 By employing both SVM and Keras Sequential models, this project aims to compare the effectiveness of traditional machine learning approaches with deep learning techniques for vehicle classification based on audio features. This hybrid approach allows for a comprehensive evaluation of model performance and provides insights into the most suitable methods for this specific task.
 
-## Usage:
+## Use Case:<a name="use-case"></a>
 
 The trained model can be deployed for practical applications requiring real-time vehicle classification. Users can input audio samples into the model, and it will output predictions indicating whether the sound corresponds to a car or a truck.
 
