@@ -60,10 +60,15 @@ The dataset comprises a collection of audio recordings capturing various vehicle
 ### Metadata Attributes:
 
 Camera Identifier (cam): Indicates the camera source of the audio recording.
+
 Classification Probability (probs): Represents the probability of the classification result.
+
 Class Label (cls): Specifies whether the sound corresponds to a car (class 2) or a truck (class 7).
+
 Timestamp (dto): Denotes the date and time of the audio recording.
+
 Other Fields: Additional attributes include intersection coordinates (intersection), bounding box coordinates (box), frame timestamp (frame_dto), sequence length (seq_len), and file paths for full and debug images.
+
 Audio Files
 The dataset includes audio files corresponding to each entry, stored in the specified paths under the snd field. These audio files capture the auditory signatures of vehicles, enabling the classification model to learn and distinguish between car and truck sounds.
 
