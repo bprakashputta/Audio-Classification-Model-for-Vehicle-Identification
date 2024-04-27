@@ -7,9 +7,9 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]
+[![GitHub Issues](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/issues)]
+[![GitHub Pull Requests](https://github.com/bprakashputta/Audio-Classification-Model-for-Vehicle-Identification/pulls)]
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -187,8 +187,8 @@ Similar to SVM, the performance of the Sequential model was evaluated using stan
 
 | Metric        | Value   |
 | ------------- | ------- |
-| Test Loss     | 16.6944 |
-| Test Accuracy | 0.7387  |
+| Test Loss     | 15.9903 |
+| Test Accuracy | 0.7574  |
 
 By employing both SVM and Keras Sequential models, this project aims to compare the effectiveness of traditional machine learning approaches with deep learning techniques for vehicle classification based on audio features. This hybrid approach allows for a comprehensive evaluation of model performance and provides insights into the most suitable methods for this specific task.
 
