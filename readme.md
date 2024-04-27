@@ -72,31 +72,61 @@ Other Fields: Additional attributes include intersection coordinates (intersecti
 Audio Files
 The dataset includes audio files corresponding to each entry, stored in the specified paths under the snd field. These audio files capture the auditory signatures of vehicles, enabling the classification model to learn and distinguish between car and truck sounds.
 
-### Usage
+## Usage <a name="usage">
 
-#### Training and Evaluation:
+### Training and Evaluation:
 
 The dataset serves as a valuable resource for training and evaluating machine learning models for vehicle classification based on audio data.
 
-#### Research and Development:
+### Research and Development:
 
 Researchers and developers can leverage the dataset to explore novel approaches for vehicle sound analysis and classification.
 
-#### Real-world Applications:
+### Real-world Applications:
 
 The insights gained from this dataset can contribute to various applications, including traffic monitoring, urban planning, and surveillance systems.
 
 ## Model Architecture:
 
-The model architecture likely involves deep learning techniques, such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs). These architectures excel in learning complex patterns from sequential data, making them suitable for audio classification tasks.
+For this project, two different machine learning architectures were employed: Support Vector Machines (SVM) and Keras Sequential models. Both approaches were utilized to train and evaluate the dataset for vehicle classification based on audio features.
 
-## Model Training:
+### SVM (Support Vector Machines):
 
-The model is trained using supervised learning techniques, where it learns to associate the audio features with their corresponding vehicle classes. During training, the model adjusts its parameters to minimize the classification error, gradually improving its predictive accuracy.
+Support Vector Machines are powerful supervised learning algorithms used for classification tasks. In this project, SVM was employed due to its ability to handle high-dimensional data effectively. SVM works by finding the hyperplane that best separates the data into different classes while maximizing the margin between the classes.
 
-## Model Evaluation:
+#### Feature Extraction:
 
-After training, the model's performance is evaluated using a separate test set of audio files. Evaluation metrics such as accuracy, precision, recall, and F1-score are computed to assess the model's effectiveness in classifying car and truck sounds.
+Relevant audio features were extracted from the dataset to represent the characteristics of car and truck sounds.
+X_train shape: (2479, 13, 100)
+X_test shape: (620, 13, 100)
+y_train shape: (2479,)
+y_test shape: (620,)
+
+#### Model Training:
+
+The SVM classifier was trained using the extracted audio features to learn the decision boundary between car and truck classes.
+
+#### Model Evaluation:
+
+The performance of the SVM model was evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness in classifying vehicle types.
+
+### Keras Sequential Models:
+
+Keras Sequential models offer a flexible and intuitive way to build neural network architectures. In this project, Sequential models were utilized to explore deep learning-based approaches for vehicle classification from audio data.
+
+#### Feature Learning:
+
+The Sequential model was designed to learn hierarchical representations of audio features through multiple layers of neural networks.
+
+#### Model Training:
+
+The Sequential model was trained on the dataset using optimization techniques such as gradient descent to minimize classification errors.
+
+#### Model Evaluation:
+
+Similar to SVM, the performance of the Sequential model was evaluated using standard classification metrics to measure its accuracy and generalization ability.
+
+By employing both SVM and Keras Sequential models, this project aims to compare the effectiveness of traditional machine learning approaches with deep learning techniques for vehicle classification based on audio features. This hybrid approach allows for a comprehensive evaluation of model performance and provides insights into the most suitable methods for this specific task.
 
 ## Usage:
 
