@@ -86,6 +86,20 @@ Researchers and developers can leverage the dataset to explore novel approaches 
 
 The insights gained from this dataset can contribute to various applications, including traffic monitoring, urban planning, and surveillance systems.
 
+## Audio Visualization
+
+To gain insights into the characteristics of our audio data, we have implemented a function called `plot_soundwave`. This function allows us to visualize the sound wave of an audio file.
+
+By plotting the normalized sound wave, we can observe the amplitude variations over time. This visualization helps us understand the structure and patterns present in the audio data, which is crucial for feature extraction and model training.
+
+Below is an example soundwave plot generated using the `plot_soundwave` function:
+
+![Soundwave Plot]('./images/wave1.png)
+![Soundwave Plot]('./images/wave2.png)
+![Soundwave Plot](''./images/wave3.png)
+
+In this plot, the x-axis represents time in seconds, while the y-axis represents the amplitude of the audio signal. The peaks and troughs in the waveform indicate changes in the audio signal's intensity, providing valuable insights into the audio's structure and dynamics.
+
 ## Model Architecture:
 
 For this project, two different machine learning architectures were employed: Support Vector Machines (SVM) and Keras Sequential models. Both approaches were utilized to train and evaluate the dataset for vehicle classification based on audio features.
