@@ -215,12 +215,14 @@ Contributions to the project, such as code improvements, bug fixes, or feature e
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@kylelobo](https://github.com/bprakashputta)
+- [@meghanakanduls](https://github.com/meghanakanduls)
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
+- Professor Tyler Conlon
 - Inspiration
 - References
+  [Audio Analysis](https://www.altexsoft.com/blog/audio-analysis/)
