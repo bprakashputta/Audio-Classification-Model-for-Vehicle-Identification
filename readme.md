@@ -88,7 +88,7 @@ The insights gained from this dataset can contribute to various applications, in
 
 ## Audio Visualization
 
-To gain insights into the characteristics of our audio data, we have implemented a function called `plot_soundwave`. This function allows us to visualize the sound wave of an audio file.
+To gain insights into the characteristics of our audio data, we have implemented a function called `plot_soundwave` using librosa library and Mel-frequency cepstrum to extract features. This function allows us to visualize the sound wave of an audio file.
 
 By plotting the normalized sound wave, we can observe the amplitude variations over time. This visualization helps us understand the structure and patterns present in the audio data, which is crucial for feature extraction and model training.
 
@@ -196,26 +196,9 @@ By employing both SVM and Keras Sequential models, this project aims to compare 
 
 The trained model can be deployed for practical applications requiring real-time vehicle classification. Users can input audio samples into the model, and it will output predictions indicating whether the sound corresponds to a car or a truck.
 
-## Repository Structure:
-
-Data: Contains the audio files and their corresponding class labels.
-Model: Includes the code for training, evaluating, and deploying the classification model.
-Documentation: Contains detailed instructions on how to use the model, along with any additional information required.
-Dependencies:
-The project relies on various libraries and frameworks, including but not limited to:
-
-Python
-TensorFlow or PyTorch (for deep learning)
-NumPy
-SciPy
-Librosa (for audio feature extraction)
-Scikit-learn (for model evaluation)
-Contribution Guidelines:
-Contributions to the project, such as code improvements, bug fixes, or feature enhancements, are welcome. Please refer to the contribution guidelines in the repository for more information.
-
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/bprakashputta)
+- [@bprakashputta](https://github.com/bprakashputta)
 - [@meghanakanduls](https://github.com/meghanakanduls)
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
