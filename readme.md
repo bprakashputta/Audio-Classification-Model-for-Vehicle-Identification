@@ -97,18 +97,35 @@ Support Vector Machines are powerful supervised learning algorithms used for cla
 #### Feature Extraction:
 
 Relevant audio features were extracted from the dataset to represent the characteristics of car and truck sounds.
-X_train shape: (2479, 13, 100)
-X_test shape: (620, 13, 100)
-y_train shape: (2479,)
-y_test shape: (620,)
+Certainly! You can represent the shapes of your data in a table format like this in your README:
+
+| Data    | Shape           |
+| ------- | --------------- |
+| X_train | (2479, 13, 100) |
+| X_test  | (620, 13, 100)  |
+| y_train | (2479,)         |
+| y_test  | (620,)          |
+
+This table provides a clear overview of the dimensions of the training and testing data.
 
 #### Model Training:
 
 The SVM classifier was trained using the extracted audio features to learn the decision boundary between car and truck classes.
 
+SVC(kernel='linear')
+
 #### Model Evaluation:
 
 The performance of the SVM model was evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness in classifying vehicle types.
+
+|              | Precision   | Recall   | F1-Score   | Support   |
+| ------------ | ----------- | -------- | ---------- | --------- |
+| Class 2      | 0.77        | 0.78     | 0.77       | 455       |
+| Class 7      | 0.37        | 0.37     | 0.37       | 165       |
+| ------------ | ----------- | -------- | ---------- | --------- |
+| Accuracy     |             |          | 0.67       | 620       |
+| Macro Avg    | 0.57        | 0.57     | 0.57       | 620       |
+| Weighted Avg | 0.67        | 0.67     | 0.67       | 620       |
 
 ### Keras Sequential Models:
 
