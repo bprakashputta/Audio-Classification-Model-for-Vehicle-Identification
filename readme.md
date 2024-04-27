@@ -135,13 +135,42 @@ Keras Sequential models offer a flexible and intuitive way to build neural netwo
 
 The Sequential model was designed to learn hierarchical representations of audio features through multiple layers of neural networks.
 
+| Layer (type) | Output Shape | Param # |
+| ------------ | ------------ | ------- |
+| Flatten      | (None, 1300) | 0       |
+| Dense        | (None, 256)  | 333,056 |
+| Dropout      | (None, 256)  | 0       |
+| Dense        | (None, 2)    | 514     |
+
+Total params: 333,570 (1.27 MB)
+Trainable params: 333,570 (1.27 MB)
+Non-trainable params: 0 (0.00 B)
+
 #### Model Training:
 
 The Sequential model was trained on the dataset using optimization techniques such as gradient descent to minimize classification errors.
 
+| Epoch | Training Accuracy | Training Loss | Validation Accuracy | Validation Loss |
+| ----- | ----------------- | ------------- | ------------------- | --------------- |
+| 1     | 0.6428            | 1.1014        | 0.6935              | 0.6833          |
+| 2     | 0.7284            | 0.5854        | 0.6855              | 0.5987          |
+| 3     | 0.6969            | 0.5946        | 0.6935              | 0.5902          |
+| 4     | 0.7207            | 0.5595        | 0.7117              | 0.5709          |
+| 5     | 0.7373            | 0.5453        | 0.7016              | 0.5739          |
+| 6     | 0.7405            | 0.5355        | 0.7177              | 0.5698          |
+| 7     | 0.7381            | 0.5539        | 0.6996              | 0.5709          |
+| 8     | 0.7377            | 0.5415        | 0.7117              | 0.5760          |
+| 9     | 0.7330            | 0.5379        | 0.7016              | 0.5818          |
+| 10    | 0.7240            | 0.5452        | 0.7177              | 0.5601          |
+
 #### Model Evaluation:
 
 Similar to SVM, the performance of the Sequential model was evaluated using standard classification metrics to measure its accuracy and generalization ability.
+
+| Metric        | Value   |
+| ------------- | ------- |
+| Test Loss     | 16.6944 |
+| Test Accuracy | 0.7387  |
 
 By employing both SVM and Keras Sequential models, this project aims to compare the effectiveness of traditional machine learning approaches with deep learning techniques for vehicle classification based on audio features. This hybrid approach allows for a comprehensive evaluation of model performance and provides insights into the most suitable methods for this specific task.
 
