@@ -207,7 +207,6 @@ The trained model can be deployed for practical applications requiring real-time
 - [@bprakashputta](https://github.com/bprakashputta) - BHANU PRAKASH PUTTA
 - [@meghanakanduls](https://github.com/meghanakanduls) - SAI MEGHANA KANDULA
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
