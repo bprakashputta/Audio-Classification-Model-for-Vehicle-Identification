@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Audio Classification Model for Vehicle Identification</h3>
 
 <div align="center">
 
@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The aim of this project is to develop an advanced model for classifying vehicle types using audio files as input data. The model's primary objective is to accurately predict whether a given audio recording represents the sound of a car or a truck. Leveraging state-of-the-art machine learning techniques, the model will analyze the audio features extracted from the files to make these predictions.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
