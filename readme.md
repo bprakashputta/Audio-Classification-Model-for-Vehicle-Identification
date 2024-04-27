@@ -94,7 +94,7 @@ By plotting the normalized sound wave, we can observe the amplitude variations o
 
 Below is an example soundwave plot generated using the `plot_soundwave` function:
 
-![Soundwave Plot]('./images/wave1.png')
+![Soundwave Plot](images/wave1.png)
 ![Soundwave Plot]('./images/wave2.png')
 ![Soundwave Plot](''./images/wave3.png')
 
