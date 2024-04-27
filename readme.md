@@ -221,3 +221,4 @@ See also the list of [contributors](https://github.com/kylelobo/The-Documentatio
 - [Voice Activity Detection](https://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/voice_activity_detection/)
 - [Audio Deep Learning Made Simple](https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5)
 - [Classification of Vehicles Based on Audio Signals using Quadratic Discriminant Analysis and High Energy Feature Vector](https://www.researchgate.net/publication/273898873_Classification_of_Vehicles_Based_on_Audio_Signals_using_Quadratic_Discriminant_Analysis_and_High_Energy_Feature_Vectors)
+- [OpenAI. (2024). ChatGPT (3.5) Large language model](https://chat.openai.com)
