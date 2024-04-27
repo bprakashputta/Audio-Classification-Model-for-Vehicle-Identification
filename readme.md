@@ -95,8 +95,8 @@ By plotting the normalized sound wave, we can observe the amplitude variations o
 Below is an example soundwave plot generated using the `plot_soundwave` function:
 
 ![Soundwave Plot](images/wave1.png)
-![Soundwave Plot]('./images/wave2.png')
-![Soundwave Plot](''./images/wave3.png')
+![Soundwave Plot](images/wave2.png)
+![Soundwave Plot](images/wave3.png)
 
 In this plot, the x-axis represents time in seconds, while the y-axis represents the amplitude of the audio signal. The peaks and troughs in the waveform indicate changes in the audio signal's intensity, providing valuable insights into the audio's structure and dynamics.
 
